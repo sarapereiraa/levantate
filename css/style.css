@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'nav nav nav nav';
+    grid-template-rows: 7vh 93vh;
+}
+
+header{
+    grid-area: header;
+    background-color: #2C2700;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+header a{
+    color: #E9E3C3;
+    text-decoration: none;
+}
+
+nav{
+    grid-area: nav;
+    background-color:teal;
+}
